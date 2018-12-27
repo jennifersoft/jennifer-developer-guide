@@ -301,22 +301,22 @@ You can set the layout of the page as follow **/plugin/tutorial?layout=iframe** 
 
 #### 2. User Defined Dashboard
 A plug-in can be used as a component in the user-defined dashboard, adding the plug-in in the Iframe mode described earlier. 
-![Image](./assets/img/en/plugin/iframe_1.png)
-![Image](./assets/img/en/plugin/iframe_2.png)
+![Image](./assets/img/plugin/iframe_1.png)
+![Image](./assets/img/plugin/iframe_2.png)
 
 #### 3. Share URL
 Page-type plug-ins can only be accessed with login authentication. However, it is possible to access the plug-in page without having to go through login authentication through the shared URL.
-![Image](./assets/img/en/plugin/share.png)
+![Image](./assets/img/plugin/share.png)
 
 ### 4. Add to JENNIFER Screen
 
 The aries.menu.type option allows you to add plug-ins to dashboards, real-time, analytics, statistics, and administration screens in addition to the JENNIFER Labs. Note that when the menu type is dashboard and real-time, there is no scrolling on the screen, and it should be developed assuming that the content area size is 100% width/height.
 
-![Image](./assets/img/en/plugin/dashboard.png "Dashboard/Real-Time")
+![Image](./assets/img/plugin/dashboard.png "Dashboard/Real-Time")
     
-![Image](./assets/img/en/plugin/analysis_statistics.png "Analysis/Statisitcs")
+![Image](./assets/img/plugin/analysis_statistics.png "Analysis/Statisitcs")
     
-![Image](./assets/img/en/plugin/management.png "Management")
+![Image](./assets/img/plugin/management.png "Management")
 
 > Plug-in menu types have the following limitations, so please refer to them when developing.
 > 1. Sharing URL functionality is disabled.

@@ -7,7 +7,7 @@ This Guide is aimed to provide you with the necessary information to get started
 There are several ways to extend JENNIFER functionality.
 The following figure shows an overview of the JENNIFER Extension Architecture.
 
-![Image](https://raw.githubusercontent.com/jennifersoft/jennifer-extension-manuals/master/res/img/view_server_extension/infographic_en.png)
+![Image](./assets/img/infographic_en.png)
 
  the following is a summary of the JENNIFER extensions
 

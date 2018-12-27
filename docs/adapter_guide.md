@@ -131,7 +131,7 @@ The User Authentication Adapter gives you the functionality to execute the authe
 
 JENNIFER has two authentication methods. There is a traditional method of importing and authenticating user information from JENNIFER DB and an authentication method using login adapter. Login adapters are designed to be easier to customize with different authentication methods.
 
-![Image](./assets/img/en/adapter/auth_process.png)
+![Image](./assets/img/adapter/auth_process.png)
 
 #### preHandle Method
 
@@ -189,11 +189,11 @@ Below is a list of the properties of the UserData class. Each property value is 
 
 You can add adapters that you have implemented directly in the `Management > Adapters and Plugin` section of the Jennifer View Server. Each adapter must have a unique ID value. This ID value is used later on for getting custom options/properties when implementing an adapter handler.
 
-![Image](./assets/img/en/adapter/custom_options1.png)
+![Image](./assets/img/adapter/custom_options1.png)
 
 In the old versions of JENNIFER, when you wanted to pass properties to an adapter, you had to create a properties file and then reference it in your adapter code and load the properties values from there. Now you can dynamically add / modify / delete the options it via the Jennifer View Server administration screen. 
 
-![Image](./assets/img/en/adapter/custom_options2.png)
+![Image](./assets/img/adapter/custom_options2.png)
 
 To get property value in the adapter you can call the `PropertyUtil.getValue` method. The first argument the `getValue` method takes is the Adapter `ID` you entered earlier when you added the adapter, and the second argument is your custom option key. The last third variable is the default value to be used if there is no value for that key.
 
