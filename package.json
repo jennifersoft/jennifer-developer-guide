@@ -1,0 +1,32 @@
+{
+  "name": "jennifer-developer-guide",
+  "version": "1.0.0",
+  "description": "JENNIFER Developer Guide",
+  "main": "index.js",
+  "scripts": {
+    "serve": "docsify serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Khalid Elshafie",
+    "url": "https://github.com/abolkog"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifersoft/jennifer-developer-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jennifersoft/jennifer-developer-guide/issues"
+  },
+  "homepage": "https://github.com/jennifersoft/jennifer-developer-guide#readme",
+  "contributors": [
+    {
+      "name": "Alvin",
+      "url": "https://github.com/seogi1004"
+    }
+  ],
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  }
+}
