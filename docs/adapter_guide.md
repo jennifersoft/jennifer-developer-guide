@@ -131,7 +131,7 @@ The User Authentication Adapter gives you the functionality to execute the authe
 
 JENNIFER has two authentication methods. There is a traditional method of importing and authenticating user information from JENNIFER DB and an authentication method using login adapter. Login adapters are designed to be easier to customize with different authentication methods.
 
-![Image](./assets/img/adapter/auth_process.png)
+![Image](./assets/img/adapter/auth_process_en.png)
 
 #### preHandle Method
 
