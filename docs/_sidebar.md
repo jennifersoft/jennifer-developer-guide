@@ -3,6 +3,6 @@
     - [Development Guide Overview](/)
 
 - JENNIFER Server
-    - [Server Adapters](/adapter_guide.md)
-    - [Server Plugin](/plugin_guide.md)
-    - [Server Batch](/batch_guide.md)
+    - [Adapters](/adapter_guide.md)
+    - [Plugins](/plugin_guide.md)
+    - [Batch(Backup)](/batch_guide.md)
