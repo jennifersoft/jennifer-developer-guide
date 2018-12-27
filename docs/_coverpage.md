@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](assets/logo.png)
+<img src="./assets/logo.svg" alt="JENNIFER" width="200"/>
 
 # JENNIFER Developer Guide
 
