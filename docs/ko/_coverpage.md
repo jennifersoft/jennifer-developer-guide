@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-<img src="/assets/logo.svg" alt="JENNIFER" width="200"/>
+<img src="https://jennifersoft.github.io/jennifer-developer-guide/assets/logo.svg" alt="JENNIFER" width="200"/>
 
 # 제니퍼 개발자 가이드
 
