@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/jennifersoft/jennifer-developer-guide/issues"
   },
-  "homepage": "http://localhost:3001/openapi#readme",
+  "homepage": "http://localhost:3001/jennifer-developer-guide/openapi#readme",
   "contributors": [
     {
       "name": "Alvin",
