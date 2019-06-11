@@ -6,6 +6,4 @@
     - [Adapters](/adapter_guide.md)
     - [Plugins](/plugin_guide.md)
     - [Batch(Backup)](/batch_guide.md)
-
-- ETC
     - [Open API](/openapi.html)
