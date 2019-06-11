@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "serve": "docsify serve docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build && mv build docs/openapi",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": {
     "name": "Khalid Elshafie",
@@ -19,13 +22,35 @@
   "bugs": {
     "url": "https://github.com/jennifersoft/jennifer-developer-guide/issues"
   },
-  "homepage": "https://github.com/jennifersoft/jennifer-developer-guide#readme",
+  "homepage": "http://localhost:3001/openapi#readme",
   "contributors": [
     {
       "name": "Alvin",
       "url": "https://github.com/seogi1004"
     }
   ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "iframe-resizer": "^4.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "swagger-ui-react": "^3.22.2"
+  },
   "devDependencies": {
     "docsify-cli": "^4.3.0"
   }
