@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/openapi/static/css/main.e1dba005.chunk.css",
+    "main.js": "/openapi/static/js/main.639e56ed.chunk.js",
+    "main.js.map": "/openapi/static/js/main.639e56ed.chunk.js.map",
+    "runtime~main.js": "/openapi/static/js/runtime~main.da6d4056.js",
+    "runtime~main.js.map": "/openapi/static/js/runtime~main.da6d4056.js.map",
+    "static/css/2.4ed8dd72.chunk.css": "/openapi/static/css/2.4ed8dd72.chunk.css",
+    "static/js/2.a631ccfc.chunk.js": "/openapi/static/js/2.a631ccfc.chunk.js",
+    "static/js/2.a631ccfc.chunk.js.map": "/openapi/static/js/2.a631ccfc.chunk.js.map",
+    "index.html": "/openapi/index.html",
+    "precache-manifest.67d8d2da001855b4b4294cb9a9c8a70b.js": "/openapi/precache-manifest.67d8d2da001855b4b4294cb9a9c8a70b.js",
+    "service-worker.js": "/openapi/service-worker.js",
+    "static/css/2.4ed8dd72.chunk.css.map": "/openapi/static/css/2.4ed8dd72.chunk.css.map",
+    "static/css/main.e1dba005.chunk.css.map": "/openapi/static/css/main.e1dba005.chunk.css.map"
+  }
+}
