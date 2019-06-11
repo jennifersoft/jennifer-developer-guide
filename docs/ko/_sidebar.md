@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
-- Getting Started
-    - [Development Guide Overview](/ko/)
+- 시작하기
+    - [개발자 가이드 개요](/ko/)
 
 - 제니퍼 서버
     - [어댑터](/ko/adapter_guide.md)
