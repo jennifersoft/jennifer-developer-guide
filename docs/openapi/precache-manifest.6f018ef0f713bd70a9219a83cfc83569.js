@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9fafb8a5ee97fb6c1bbe3666054b13b",
+    "revision": "4d1767fb413c5905cbf55fa3c1868df5",
     "url": "/jennifer-developer-guide/openapi/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jennifer-developer-guide/openapi/static/css/2.4ed8dd72.chunk.css"
   },
   {
-    "revision": "c2d92565a384a750317c",
+    "revision": "fa44ab3f2ccb9674cae5",
     "url": "/jennifer-developer-guide/openapi/static/css/main.e1dba005.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jennifer-developer-guide/openapi/static/js/2.a631ccfc.chunk.js"
   },
   {
-    "revision": "c2d92565a384a750317c",
-    "url": "/jennifer-developer-guide/openapi/static/js/main.e1117fdf.chunk.js"
+    "revision": "fa44ab3f2ccb9674cae5",
+    "url": "/jennifer-developer-guide/openapi/static/js/main.961596f5.chunk.js"
   },
   {
     "revision": "260f12f24894dd1e960e",
