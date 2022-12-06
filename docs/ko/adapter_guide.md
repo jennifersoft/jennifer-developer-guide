@@ -119,6 +119,40 @@ public class EventAdapter implements EventHandler {
 | String | serviceName |
 | long | txid |
 
+## System Event 알림 어댑터
+
+제니퍼 뷰/데이터 서버 관련 EVENT 발생 시점에 관련된 데이터를 어댑터 핸들러를 통해 받기 위해서는 [관리 > JENNIFER 관리자 알림] 메뉴에서 설정된 값이 활성화되어 있어야 한다. System EVENT 알림 어댑터 클래스 코드는 다음과 같다.
+
+```java
+package com.aries.tutorial;
+
+import com.aries.extension.data.SystemEventData;
+import com.aries.extension.handler.SystemEventHandler;
+import com.aries.extension.util.PropertyUtil;
+
+public class SystemEventAdapter implements SystemEventHandler {
+    @Override
+    public void on(SystemEventData[] events) {
+        System.out.println("[SystemEventAdapter] - " +
+                PropertyUtil.getValue("system_event_adapter", "subject", "Unknown subject"));
+
+        for(SystemEventData data : events) {
+            System.out.println("Subject : " + data.subject);
+            System.out.println("Message : " + data.message);
+            System.out.println("Data Server : " + data.dataServer);
+        }
+    }
+}
+```
+
+아래는 SystemEventData 클래스의 프로퍼티 목록이다.
+
+| 변수 타입 | 프로퍼티 이름 |
+|:-------|-------:|
+| String | subject |
+| String | message |
+| String | dataServer |
+
 ## 사용자 인증 어댑터
 
 제니퍼 뷰서버에서 로그인을 시도할 때, 외부 모듈에서 인증 로직을 수행할 수 있는 확장 기능이다. 사용자는 제니퍼 뷰서버의 계정 정보를 사용하지 않고, SSO 인증 방식같이 자신들이 이미 구축해둔 계정 정보를 그대로 사용할 수 있다. 
