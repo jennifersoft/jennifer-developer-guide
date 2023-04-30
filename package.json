@@ -49,7 +49,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "swagger-ui-react": "^3.22.2"
+    "swagger-ui-react": "^4.18.3"
   },
   "devDependencies": {
     "docsify-cli": "^4.3.0"
